@@ -1,0 +1,363 @@
+* {
+  padding: 0px;
+  margin: 0px; }
+
+a {
+  text-decoration: none; }
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 400;
+  margin: 10px 0px; }
+
+body {
+  line-height: 1.5; }
+
+@media screen and (max-width: 992px) {
+  #header {
+    max-height: 150px; }
+    #header .w3c-bar1 {
+      max-height: 70px; }
+      #header .w3c-bar1 .center {
+        text-align: center; } }
+
+#header {
+  position: relative;
+  width: 100%;
+  height: 102px;
+  top: 5px; }
+  #header .w3c-bar1 {
+    position: absolute;
+    width: 100%;
+    height: 56px;
+    top: -10px;
+    padding: 0px -3px; }
+    #header .w3c-bar1 .left {
+      width: 49%;
+      height: 37px;
+      float: left;
+      padding-left: 10px;
+      padding-top: 5px; }
+      #header .w3c-bar1 .left a {
+        font-size: 40px; }
+    #header .w3c-bar1 .right {
+      width: 49%;
+      height: 23px;
+      float: right;
+      text-align: right;
+      padding-right: 10px;
+      padding-top: 30px;
+      letter-spacing: 4px; }
+  #header .w3c-bar2 {
+    position: absolute;
+    width: 100%;
+    height: 46px;
+    top: 56px;
+    background-color: #4CAF50; }
+    #header .w3c-bar2 .left {
+      width: 500px;
+      height: 100%;
+      float: left; }
+      #header .w3c-bar2 .left a {
+        display: inline-block;
+        font-size: 17px;
+        padding: 15px;
+        color: white; }
+      #header .w3c-bar2 .left a:hover {
+        background-color: white;
+        color: black; }
+    #header .w3c-bar2 .right {
+      width: 300px;
+      height: 100%;
+      float: right;
+      text-align: right; }
+      #header .w3c-bar2 .right a {
+        padding: 20px 10px 20px 10px; }
+        #header .w3c-bar2 .right a img {
+          margin-top: 12px; }
+      #header .w3c-bar2 .right a:hover {
+        background-color: white;
+        color: #4CAF50; }
+  #header .text_spacing {
+    letter-spacing: 2px; }
+
+#navbar {
+  position: relative;
+  width: 15%;
+  height: 100%;
+  top: 0px;
+  float: left; }
+  #navbar .list {
+    width: 100%; }
+    #navbar .list .w3-container {
+      width: 100%;
+      height: 30px;
+      font-size: 20px;
+      padding: 16px 16px; }
+    #navbar .list .item {
+      padding: 0px 16px;
+      font-size: 16px;
+      line-height: 20px; }
+    #navbar .list a {
+      text-align: left;
+      display: block;
+      color: black; }
+    #navbar .list a:hover {
+      background-color: #ccc; }
+
+.box-shadow {
+  box-shadow: 1px 1px 5px #888888; }
+
+#main {
+  position: relative;
+  top: 0px;
+  width: 84.91%;
+  height: 100%;
+  float: left;
+  box-shadow: -1px 5px 5px #f1f1f1; }
+  #main .w3-button {
+    padding: 8px 16px;
+    margin: 5px;
+    color: white;
+    background-color: #4CAF50; }
+  #main .w3-hide-small {
+    width: 535px;
+    height: 384px;
+    background-color: #f1f1f1;
+    padding: 16px; }
+  #main .w3c-code-col {
+    width: 507px;
+    height: 270px;
+    border-left: 2px #4CAF50 solid;
+    padding: 8px 12px;
+    margin: 16px 0px;
+    background-color: white; }
+  #main .w3-dark-grey {
+    background-color: #616161; }
+  #main .w3-dark-grey:hover {
+    color: black;
+    background-color: #ccc; }
+  #main h1 {
+    font-size: 80px; }
+  #main .w3c-row1 {
+    width: 100%;
+    height: 494px; }
+    #main .w3c-row1 .left {
+      width: 49.99%;
+      height: 236px;
+      text-align: center;
+      float: left;
+      padding-top: 70px; }
+      #main .w3c-row1 .left p {
+        margin: 20px;
+        font-size: 30px; }
+    #main .w3c-row1 .right {
+      width: 49.99%;
+      height: 418px;
+      float: left;
+      padding-top: 50px; }
+      #main .w3c-row1 .right a:hover {
+        box-shadow: 1px 1px 5px #888888; }
+  #main .w3c-row2 {
+    width: 100%;
+    height: 485px;
+    background-color: #f1f1f1; }
+    #main .w3c-row2 .left {
+      width: 45%;
+      height: 485px;
+      padding: 30px 0px 0px 30px;
+      float: left; }
+      #main .w3c-row2 .left a:hover {
+        box-shadow: 1px 1px 5px #888888; }
+    #main .w3c-row2 .right {
+      width: 561px;
+      height: 236px;
+      float: left;
+      text-align: center;
+      margin: 40px; }
+      #main .w3c-row2 .right p {
+        font-size: 24px;
+        padding: 25px 0px; }
+  #main .w3c-row3 {
+    width: 100%;
+    height: 494px; }
+    #main .w3c-row3 .left {
+      width: 567px;
+      height: 300px;
+      text-align: center;
+      float: left;
+      margin-left: -590px;
+      padding-top: 70px; }
+      #main .w3c-row3 .left p {
+        margin: 20px;
+        font-size: 30px; }
+    #main .w3c-row3 .right {
+      width: 567px;
+      height: 392px;
+      float: left;
+      padding: 50px; }
+      #main .w3c-row3 .right a:hover {
+        box-shadow: 1px 1px 5px #888888; }
+  #main .w3c-row4 {
+    width: 100%;
+    height: 338px;
+    background-color: #f1f1f1; }
+    #main .w3c-row4 .white {
+      width: 334px;
+      height: 230px;
+      margin: 38px;
+      float: left;
+      text-align: center;
+      background-color: white;
+      padding: 25px 5px; }
+      #main .w3c-row4 .white h2 {
+        font-size: 36px; }
+      #main .w3c-row4 .white h4 {
+        padding: 0px 0px 15px 0px; }
+  #main .w3c-row5 {
+    width: 100%;
+    height: 294px; }
+    #main .w3c-row5 .center {
+      width: 32%;
+      height: 192px;
+      text-align: center;
+      float: left; }
+      #main .w3c-row5 .center h2 {
+        font-size: 36px; }
+      #main .w3c-row5 .center h3 {
+        padding: 20px 50px; }
+      #main .w3c-row5 .center img:hover {
+        opacity: 0.5; }
+  #main .w3c-row6 {
+    width: 100%;
+    height: 600px;
+    background-color: #f1f1f1;
+    text-align: center;
+    padding: 20px 0px; }
+    #main .w3c-row6 h2 {
+      font-size: 36px; }
+    #main .w3c-row6 h4 {
+      font-size: 20px; }
+    #main .w3c-row6 .img-margin {
+      margin: 20px; }
+      #main .w3c-row6 .img-margin img {
+        width: 980px;
+        height: 376px; }
+  #main .w3c-row7 {
+    width: 100%;
+    height: 534px;
+    text-align: center; }
+    #main .w3c-row7 h2 {
+      font-size: 36px; }
+    #main .w3c-row7 h4 {
+      font-size: 20px; }
+    #main .w3c-row7 .center {
+      width: 1000px;
+      height: 305px;
+      margin: 50px auto; }
+      #main .w3c-row7 .center .widows {
+        width: 440px;
+        height: 290px;
+        border: 6px #818181 solid;
+        float: left;
+        margin: 0px 10px; }
+        #main .w3c-row7 .center .widows .main {
+          width: 75%;
+          height: 100%;
+          float: left;
+          overflow: scroll;
+          overflow-x: hidden;
+          text-align: left; }
+          #main .w3c-row7 .center .widows .main h2 {
+            margin: 10px; }
+          #main .w3c-row7 .center .widows .main p {
+            margin: 10px; }
+        #main .w3c-row7 .center .widows .list1 {
+          width: 25%;
+          height: 100%;
+          background-color: black;
+          float: left; }
+          #main .w3c-row7 .center .widows .list1 a {
+            color: #818181; }
+          #main .w3c-row7 .center .widows .list1 a:hover {
+            color: white; }
+        #main .w3c-row7 .center .widows .list2 {
+          width: 25%;
+          height: 100%;
+          float: left; }
+          #main .w3c-row7 .center .widows .list2 .background {
+            width: 80px;
+            height: 131px;
+            background-color: #eee;
+            margin: 20px;
+            padding-left: 10px; }
+            #main .w3c-row7 .center .widows .list2 .background .padding {
+              width: 80%;
+              height: 35px;
+              float: left; }
+              #main .w3c-row7 .center .widows .list2 .background .padding a {
+                color: #2196F3; }
+              #main .w3c-row7 .center .widows .list2 .background .padding a:hover {
+                color: black; }
+  #main .w3c-row8 {
+    position: relative;
+    width: 100%;
+    height: 537px;
+    background-color: black; }
+    #main .w3c-row8 .certoverlay {
+      position: absolute;
+      width: 100%;
+      height: 132px;
+      top: 0px;
+      background-color: rgba(0, 0, 0, 0.1);
+      text-align: center;
+      color: white; }
+      #main .w3c-row8 .certoverlay h2 {
+        font-size: 36px; }
+      #main .w3c-row8 .certoverlay h3 {
+        font-size: 20px; }
+    #main .w3c-row8 .middle {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%); }
+      #main .w3c-row8 .middle a.w3-button {
+        padding: 15px 30px; }
+      #main .w3c-row8 .middle a:hover {
+        color: black;
+        background-color: white; }
+  #main .w3c-row9 {
+    position: relative;
+    width: 100%;
+    height: 275px;
+    background-color: #616161; }
+    #main .w3c-row9 .container {
+      position: absolute;
+      width: 95%;
+      height: 10px;
+      padding: 20px;
+      margin: 10px; }
+      #main .w3c-row9 .container .left {
+        float: left; }
+        #main .w3c-row9 .container .left a {
+          border: 1px black solid;
+          color: black;
+          background-color: #f1f1f1;
+          padding: 10px; }
+        #main .w3c-row9 .container .left a:hover {
+          background-color: #999999; }
+      #main .w3c-row9 .container .right {
+        float: right; }
+        #main .w3c-row9 .container .right a {
+          color: white; }
+        #main .w3c-row9 .container .right a:hover {
+          color: #4CAF50; }
+    #main .w3c-row9 p {
+      position: absolute;
+      top: 80px;
+      color: white;
+      width: 95%;
+      text-align: center;
+      margin: 10px;
+      float: clear; }
+    #main .w3c-row9 .center {
+      top: 190px; }
